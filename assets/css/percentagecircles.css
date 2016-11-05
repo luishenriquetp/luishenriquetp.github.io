@@ -11,7 +11,7 @@
   animation-delay: 1s;
 }
 .chart-one.animate figcaption:after {
-  animation: chart-one-label 3s steps(25) forwards;
+  animation: chart-one-label 3s steps(80) forwards;
   animation-delay: 1s;
 }
 .chart-one svg {
@@ -28,8 +28,8 @@
 }
 .chart-one svg .circle-foreground {
   stroke: #79be9b;
-  stroke-dasharray: 46.315px 185.26px;
-  stroke-dashoffset: 46.315px;
+  stroke-dasharray: 148.208px 185.26px;
+  stroke-dashoffset: 148.208px;
   stroke-linecap: round;
   transform-origin: 50% 50%;
   transform: rotate(-90deg);
@@ -56,7 +56,7 @@
 
 @keyframes chart-one-label {
   100% {
-    transform: translateY(-37.5rem);
+    transform: translateY(-120rem);
   }
 }
 .chart-two {
@@ -70,7 +70,7 @@
   animation-delay: 1s;
 }
 .chart-two.animate figcaption:after {
-  animation: chart-two-label 3s steps(25) forwards;
+  animation: chart-two-label 3s steps(80) forwards;
   animation-delay: 1s;
 }
 .chart-two svg {
@@ -87,8 +87,8 @@
 }
 .chart-two svg .circle-foreground {
   stroke: #79be9b;
-  stroke-dasharray: 46.315px 185.26px;
-  stroke-dashoffset: 46.315px;
+  stroke-dasharray: 148.208px 185.26px;
+  stroke-dashoffset: 148.208px;
   stroke-linecap: round;
   transform-origin: 50% 50%;
   transform: rotate(-90deg);
@@ -115,7 +115,7 @@
 
 @keyframes chart-two-label {
   100% {
-    transform: translateY(-37.5rem);
+    transform: translateY(-120rem);
   }
 }
 .chart-three {
@@ -247,7 +247,7 @@
   animation-delay: 1s;
 }
 .chart-five.animate figcaption:after {
-  animation: chart-five-label 3s steps(25) forwards;
+  animation: chart-five-label 3s steps(50) forwards;
   animation-delay: 1s;
 }
 .chart-five svg {
@@ -264,8 +264,8 @@
 }
 .chart-five svg .circle-foreground {
   stroke: #79be9b;
-  stroke-dasharray: 46.315px 185.26px;
-  stroke-dashoffset: 46.315px;
+  stroke-dasharray: 92.63px 185.26px;
+  stroke-dashoffset: 92.63px;
   stroke-linecap: round;
   transform-origin: 50% 50%;
   transform: rotate(-90deg);
@@ -292,12 +292,12 @@
 
 @keyframes chart-five-label {
   100% {
-    transform: translateY(-37.5rem);
+    transform: translateY(-75rem);
   }
 }
 .chart-six {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin: 0;
   position: relative;
 }
@@ -314,7 +314,7 @@
   height: 100%;
 }
 .chart-six svg .circle-background, .chart-six svg .circle-foreground {
-  r: 29.5px;
+  r: 24.5px;
   cx: 50%;
   cy: 50%;
   fill: none;
@@ -323,8 +323,8 @@
 }
 .chart-six svg .circle-foreground {
   stroke: #79be9b;
-  stroke-dasharray: 46.315px 185.26px;
-  stroke-dashoffset: 46.315px;
+  stroke-dasharray: 38.465px 153.86px;
+  stroke-dashoffset: 38.465px;
   stroke-linecap: round;
   transform-origin: 50% 50%;
   transform: rotate(-90deg);
