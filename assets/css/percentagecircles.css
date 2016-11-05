@@ -45,6 +45,7 @@
   top: calc(50% - 1.25rem);
   left: 0;
   font-size: 0;
+  margin-left:-30px;
 }
 .chart-one figcaption:after {
   display: inline-block;
@@ -70,7 +71,7 @@
   animation-delay: 1s;
 }
 .chart-two.animate figcaption:after {
-  animation: chart-two-label 3s steps(80) forwards;
+  animation: chart-two-label 3s steps(30) forwards;
   animation-delay: 1s;
 }
 .chart-two svg {
@@ -87,8 +88,8 @@
 }
 .chart-two svg .circle-foreground {
   stroke: #79be9b;
-  stroke-dasharray: 499.888px 624.86px;
-  stroke-dashoffset: 499.888px;
+  stroke-dasharray: 187.458px 624.86px;
+  stroke-dashoffset: 187.458px;
   stroke-linecap: round;
   transform-origin: 50% 50%;
   transform: rotate(-90deg);
@@ -104,6 +105,7 @@
   top: calc(50% - 1.25rem);
   left: 0;
   font-size: 0;
+  margin-left:-30px;
 }
 .chart-two figcaption:after {
   display: inline-block;
@@ -115,7 +117,7 @@
 
 @keyframes chart-two-label {
   100% {
-    transform: translateY(-200rem);
+    transform: translateY(-75rem);
   }
 }
 .chart-three {
@@ -129,7 +131,7 @@
   animation-delay: 1s;
 }
 .chart-three.animate figcaption:after {
-  animation: chart-three-label 3s steps(25) forwards;
+  animation: chart-three-label 3s steps(50) forwards;
   animation-delay: 1s;
 }
 .chart-three svg {
@@ -146,8 +148,8 @@
 }
 .chart-three svg .circle-foreground {
   stroke: #79be9b;
-  stroke-dasharray: 156.215px 624.86px;
-  stroke-dashoffset: 156.215px;
+  stroke-dasharray: 312.43px 624.86px;
+  stroke-dashoffset: 312.43px;
   stroke-linecap: round;
   transform-origin: 50% 50%;
   transform: rotate(-90deg);
@@ -163,6 +165,7 @@
   top: calc(50% - 1.25rem);
   left: 0;
   font-size: 0;
+  margin-left:-30px;
 }
 .chart-three figcaption:after {
   display: inline-block;
@@ -174,7 +177,7 @@
 
 @keyframes chart-three-label {
   100% {
-    transform: translateY(-62.5rem);
+    transform: translateY(-125rem);
   }
 }
 .chart-four {
@@ -188,7 +191,7 @@
   animation-delay: 1s;
 }
 .chart-four.animate figcaption:after {
-  animation: chart-four-label 3s steps(25) forwards;
+  animation: chart-four-label 3s steps(60) forwards;
   animation-delay: 1s;
 }
 .chart-four svg {
@@ -205,8 +208,8 @@
 }
 .chart-four svg .circle-foreground {
   stroke: #79be9b;
-  stroke-dasharray: 156.215px 624.86px;
-  stroke-dashoffset: 156.215px;
+  stroke-dasharray: 374.916px 624.86px;
+  stroke-dashoffset: 374.916px;
   stroke-linecap: round;
   transform-origin: 50% 50%;
   transform: rotate(-90deg);
@@ -222,6 +225,7 @@
   top: calc(50% - 1.25rem);
   left: 0;
   font-size: 0;
+  margin-left:-30px;
 }
 .chart-four figcaption:after {
   display: inline-block;
@@ -233,7 +237,7 @@
 
 @keyframes chart-four-label {
   100% {
-    transform: translateY(-62.5rem);
+    transform: translateY(-150rem);
   }
 }
 @keyframes offset {
