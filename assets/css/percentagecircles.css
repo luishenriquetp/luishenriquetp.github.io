@@ -296,8 +296,8 @@
   }
 }
 .chart-six {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   margin: 0;
   position: relative;
 }
@@ -306,7 +306,7 @@
   animation-delay: 1s;
 }
 .chart-six.animate figcaption:after {
-  animation: chart-six-label 3s steps(25) forwards;
+  animation: chart-six-label 3s steps(60) forwards;
   animation-delay: 1s;
 }
 .chart-six svg {
@@ -314,7 +314,7 @@
   height: 100%;
 }
 .chart-six svg .circle-background, .chart-six svg .circle-foreground {
-  r: 24.5px;
+  r: 29.5px;
   cx: 50%;
   cy: 50%;
   fill: none;
@@ -323,8 +323,8 @@
 }
 .chart-six svg .circle-foreground {
   stroke: #79be9b;
-  stroke-dasharray: 38.465px 153.86px;
-  stroke-dashoffset: 38.465px;
+  stroke-dasharray: 111.156px 185.26px;
+  stroke-dashoffset: 111.156px;
   stroke-linecap: round;
   transform-origin: 50% 50%;
   transform: rotate(-90deg);
@@ -351,7 +351,7 @@
 
 @keyframes chart-six-label {
   100% {
-    transform: translateY(-37.5rem);
+    transform: translateY(-90rem);
   }
 }
 @keyframes offset {
