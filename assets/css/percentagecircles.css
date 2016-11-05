@@ -60,8 +60,8 @@
   }
 }
 .chart-two {
-  width: 200px;
-  height: 200px;
+  width: 60px;
+  height: 60px;
   margin: 0;
   position: relative;
 }
@@ -78,7 +78,7 @@
   height: 100%;
 }
 .chart-two svg .circle-background, .chart-two svg .circle-foreground {
-  r: 99.5px;
+  r: 29.5px;
   cx: 50%;
   cy: 50%;
   fill: none;
@@ -87,8 +87,8 @@
 }
 .chart-two svg .circle-foreground {
   stroke: #79be9b;
-  stroke-dasharray: 156.215px 624.86px;
-  stroke-dashoffset: 156.215px;
+  stroke-dasharray: 46.315px 185.26px;
+  stroke-dashoffset: 46.315px;
   stroke-linecap: round;
   transform-origin: 50% 50%;
   transform: rotate(-90deg);
@@ -96,12 +96,12 @@
 .chart-two figcaption {
   display: inline-block;
   width: 100%;
-  height: 2.5rem;
+  height: 1.5rem;
   overflow: hidden;
   text-align: center;
   color: #c6e8d7;
   position: absolute;
-  top: calc(50% - 1.25rem);
+  top: calc(50% - 0.75rem);
   left: 0;
   font-size: 0;
 }
@@ -109,18 +109,18 @@
   display: inline-block;
   content: "0%\a 1%\a 2%\a 3%\a 4%\a 5%\a 6%\a 7%\a 8%\a 9%\a 10%\a 11%\a 12%\a 13%\a 14%\a 15%\a 16%\a 17%\a 18%\a 19%\a 20%\a 21%\a 22%\a 23%\a 24%\a 25%\a 26%\a 27%\a 28%\a 29%\a 30%\a 31%\a 32%\a 33%\a 34%\a 35%\a 36%\a 37%\a 38%\a 39%\a 40%\a 41%\a 42%\a 43%\a 44%\a 45%\a 46%\a 47%\a 48%\a 49%\a 50%\a 51%\a 52%\a 53%\a 54%\a 55%\a 56%\a 57%\a 58%\a 59%\a 60%\a 61%\a 62%\a 63%\a 64%\a 65%\a 66%\a 67%\a 68%\a 69%\a 70%\a 71%\a 72%\a 73%\a 74%\a 75%\a 76%\a 77%\a 78%\a 79%\a 80%\a 81%\a 82%\a 83%\a 84%\a 85%\a 86%\a 87%\a 88%\a 89%\a 90%\a 91%\a 92%\a 93%\a 94%\a 95%\a 96%\a 97%\a 98%\a 99%\a 100%\a";
   white-space: pre;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
 
 @keyframes chart-two-label {
   100% {
-    transform: translateY(-62.5rem);
+    transform: translateY(-37.5rem);
   }
 }
 .chart-three {
-  width: 200px;
-  height: 200px;
+  width: 60px;
+  height: 60px;
   margin: 0;
   position: relative;
 }
@@ -137,7 +137,7 @@
   height: 100%;
 }
 .chart-three svg .circle-background, .chart-three svg .circle-foreground {
-  r: 99.5px;
+  r: 29.5px;
   cx: 50%;
   cy: 50%;
   fill: none;
@@ -146,8 +146,8 @@
 }
 .chart-three svg .circle-foreground {
   stroke: #79be9b;
-  stroke-dasharray: 156.215px 624.86px;
-  stroke-dashoffset: 156.215px;
+  stroke-dasharray: 46.315px 185.26px;
+  stroke-dashoffset: 46.315px;
   stroke-linecap: round;
   transform-origin: 50% 50%;
   transform: rotate(-90deg);
@@ -155,12 +155,12 @@
 .chart-three figcaption {
   display: inline-block;
   width: 100%;
-  height: 2.5rem;
+  height: 1.5rem;
   overflow: hidden;
   text-align: center;
   color: #c6e8d7;
   position: absolute;
-  top: calc(50% - 1.25rem);
+  top: calc(50% - 0.75rem);
   left: 0;
   font-size: 0;
 }
@@ -168,18 +168,18 @@
   display: inline-block;
   content: "0%\a 1%\a 2%\a 3%\a 4%\a 5%\a 6%\a 7%\a 8%\a 9%\a 10%\a 11%\a 12%\a 13%\a 14%\a 15%\a 16%\a 17%\a 18%\a 19%\a 20%\a 21%\a 22%\a 23%\a 24%\a 25%\a 26%\a 27%\a 28%\a 29%\a 30%\a 31%\a 32%\a 33%\a 34%\a 35%\a 36%\a 37%\a 38%\a 39%\a 40%\a 41%\a 42%\a 43%\a 44%\a 45%\a 46%\a 47%\a 48%\a 49%\a 50%\a 51%\a 52%\a 53%\a 54%\a 55%\a 56%\a 57%\a 58%\a 59%\a 60%\a 61%\a 62%\a 63%\a 64%\a 65%\a 66%\a 67%\a 68%\a 69%\a 70%\a 71%\a 72%\a 73%\a 74%\a 75%\a 76%\a 77%\a 78%\a 79%\a 80%\a 81%\a 82%\a 83%\a 84%\a 85%\a 86%\a 87%\a 88%\a 89%\a 90%\a 91%\a 92%\a 93%\a 94%\a 95%\a 96%\a 97%\a 98%\a 99%\a 100%\a";
   white-space: pre;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
 
 @keyframes chart-three-label {
   100% {
-    transform: translateY(-62.5rem);
+    transform: translateY(-37.5rem);
   }
 }
 .chart-four {
-  width: 200px;
-  height: 200px;
+  width: 60px;
+  height: 60px;
   margin: 0;
   position: relative;
 }
@@ -188,7 +188,7 @@
   animation-delay: 1s;
 }
 .chart-four.animate figcaption:after {
-  animation: chart-four-label 3s steps(26) forwards;
+  animation: chart-four-label 3s steps(25) forwards;
   animation-delay: 1s;
 }
 .chart-four svg {
@@ -196,7 +196,7 @@
   height: 100%;
 }
 .chart-four svg .circle-background, .chart-four svg .circle-foreground {
-  r: 99.5px;
+  r: 29.5px;
   cx: 50%;
   cy: 50%;
   fill: none;
@@ -205,8 +205,8 @@
 }
 .chart-four svg .circle-foreground {
   stroke: #79be9b;
-  stroke-dasharray: 162.4636px 624.86px;
-  stroke-dashoffset: 162.4636px;
+  stroke-dasharray: 46.315px 185.26px;
+  stroke-dashoffset: 46.315px;
   stroke-linecap: round;
   transform-origin: 50% 50%;
   transform: rotate(-90deg);
@@ -214,12 +214,12 @@
 .chart-four figcaption {
   display: inline-block;
   width: 100%;
-  height: 2.5rem;
+  height: 1.5rem;
   overflow: hidden;
   text-align: center;
   color: #c6e8d7;
   position: absolute;
-  top: calc(50% - 1.25rem);
+  top: calc(50% - 0.75rem);
   left: 0;
   font-size: 0;
 }
@@ -227,13 +227,131 @@
   display: inline-block;
   content: "0%\a 1%\a 2%\a 3%\a 4%\a 5%\a 6%\a 7%\a 8%\a 9%\a 10%\a 11%\a 12%\a 13%\a 14%\a 15%\a 16%\a 17%\a 18%\a 19%\a 20%\a 21%\a 22%\a 23%\a 24%\a 25%\a 26%\a 27%\a 28%\a 29%\a 30%\a 31%\a 32%\a 33%\a 34%\a 35%\a 36%\a 37%\a 38%\a 39%\a 40%\a 41%\a 42%\a 43%\a 44%\a 45%\a 46%\a 47%\a 48%\a 49%\a 50%\a 51%\a 52%\a 53%\a 54%\a 55%\a 56%\a 57%\a 58%\a 59%\a 60%\a 61%\a 62%\a 63%\a 64%\a 65%\a 66%\a 67%\a 68%\a 69%\a 70%\a 71%\a 72%\a 73%\a 74%\a 75%\a 76%\a 77%\a 78%\a 79%\a 80%\a 81%\a 82%\a 83%\a 84%\a 85%\a 86%\a 87%\a 88%\a 89%\a 90%\a 91%\a 92%\a 93%\a 94%\a 95%\a 96%\a 97%\a 98%\a 99%\a 100%\a";
   white-space: pre;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
 
 @keyframes chart-four-label {
   100% {
-    transform: translateY(-65rem);
+    transform: translateY(-37.5rem);
+  }
+}
+.chart-five {
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  position: relative;
+}
+.chart-five.animate svg .circle-foreground {
+  animation: offset 3s ease-in-out forwards;
+  animation-delay: 1s;
+}
+.chart-five.animate figcaption:after {
+  animation: chart-five-label 3s steps(25) forwards;
+  animation-delay: 1s;
+}
+.chart-five svg {
+  width: 100%;
+  height: 100%;
+}
+.chart-five svg .circle-background, .chart-five svg .circle-foreground {
+  r: 29.5px;
+  cx: 50%;
+  cy: 50%;
+  fill: none;
+  stroke: #305556;
+  stroke-width: 1px;
+}
+.chart-five svg .circle-foreground {
+  stroke: #79be9b;
+  stroke-dasharray: 46.315px 185.26px;
+  stroke-dashoffset: 46.315px;
+  stroke-linecap: round;
+  transform-origin: 50% 50%;
+  transform: rotate(-90deg);
+}
+.chart-five figcaption {
+  display: inline-block;
+  width: 100%;
+  height: 1.5rem;
+  overflow: hidden;
+  text-align: center;
+  color: #c6e8d7;
+  position: absolute;
+  top: calc(50% - 0.75rem);
+  left: 0;
+  font-size: 0;
+}
+.chart-five figcaption:after {
+  display: inline-block;
+  content: "0%\a 1%\a 2%\a 3%\a 4%\a 5%\a 6%\a 7%\a 8%\a 9%\a 10%\a 11%\a 12%\a 13%\a 14%\a 15%\a 16%\a 17%\a 18%\a 19%\a 20%\a 21%\a 22%\a 23%\a 24%\a 25%\a 26%\a 27%\a 28%\a 29%\a 30%\a 31%\a 32%\a 33%\a 34%\a 35%\a 36%\a 37%\a 38%\a 39%\a 40%\a 41%\a 42%\a 43%\a 44%\a 45%\a 46%\a 47%\a 48%\a 49%\a 50%\a 51%\a 52%\a 53%\a 54%\a 55%\a 56%\a 57%\a 58%\a 59%\a 60%\a 61%\a 62%\a 63%\a 64%\a 65%\a 66%\a 67%\a 68%\a 69%\a 70%\a 71%\a 72%\a 73%\a 74%\a 75%\a 76%\a 77%\a 78%\a 79%\a 80%\a 81%\a 82%\a 83%\a 84%\a 85%\a 86%\a 87%\a 88%\a 89%\a 90%\a 91%\a 92%\a 93%\a 94%\a 95%\a 96%\a 97%\a 98%\a 99%\a 100%\a";
+  white-space: pre;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+@keyframes chart-five-label {
+  100% {
+    transform: translateY(-37.5rem);
+  }
+}
+.chart-six {
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  position: relative;
+}
+.chart-six.animate svg .circle-foreground {
+  animation: offset 3s ease-in-out forwards;
+  animation-delay: 1s;
+}
+.chart-six.animate figcaption:after {
+  animation: chart-six-label 3s steps(25) forwards;
+  animation-delay: 1s;
+}
+.chart-six svg {
+  width: 100%;
+  height: 100%;
+}
+.chart-six svg .circle-background, .chart-six svg .circle-foreground {
+  r: 29.5px;
+  cx: 50%;
+  cy: 50%;
+  fill: none;
+  stroke: #305556;
+  stroke-width: 1px;
+}
+.chart-six svg .circle-foreground {
+  stroke: #79be9b;
+  stroke-dasharray: 46.315px 185.26px;
+  stroke-dashoffset: 46.315px;
+  stroke-linecap: round;
+  transform-origin: 50% 50%;
+  transform: rotate(-90deg);
+}
+.chart-six figcaption {
+  display: inline-block;
+  width: 100%;
+  height: 1.5rem;
+  overflow: hidden;
+  text-align: center;
+  color: #c6e8d7;
+  position: absolute;
+  top: calc(50% - 0.75rem);
+  left: 0;
+  font-size: 0;
+}
+.chart-six figcaption:after {
+  display: inline-block;
+  content: "0%\a 1%\a 2%\a 3%\a 4%\a 5%\a 6%\a 7%\a 8%\a 9%\a 10%\a 11%\a 12%\a 13%\a 14%\a 15%\a 16%\a 17%\a 18%\a 19%\a 20%\a 21%\a 22%\a 23%\a 24%\a 25%\a 26%\a 27%\a 28%\a 29%\a 30%\a 31%\a 32%\a 33%\a 34%\a 35%\a 36%\a 37%\a 38%\a 39%\a 40%\a 41%\a 42%\a 43%\a 44%\a 45%\a 46%\a 47%\a 48%\a 49%\a 50%\a 51%\a 52%\a 53%\a 54%\a 55%\a 56%\a 57%\a 58%\a 59%\a 60%\a 61%\a 62%\a 63%\a 64%\a 65%\a 66%\a 67%\a 68%\a 69%\a 70%\a 71%\a 72%\a 73%\a 74%\a 75%\a 76%\a 77%\a 78%\a 79%\a 80%\a 81%\a 82%\a 83%\a 84%\a 85%\a 86%\a 87%\a 88%\a 89%\a 90%\a 91%\a 92%\a 93%\a 94%\a 95%\a 96%\a 97%\a 98%\a 99%\a 100%\a";
+  white-space: pre;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+@keyframes chart-six-label {
+  100% {
+    transform: translateY(-37.5rem);
   }
 }
 @keyframes offset {
