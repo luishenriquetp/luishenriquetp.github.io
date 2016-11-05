@@ -119,9 +119,7 @@
 			transition: opacity 1.75s ease-out;
 		}
 
-		body.is-loading:after {
-			opacity: 1;
-		}
+
 
 /* Type */
 
