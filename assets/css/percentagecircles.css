@@ -1,3 +1,4 @@
+/* ------- DO NOT EDIT BELOW --------- */
 @import url(https://fonts.googleapis.com/css?family=Abel);
 .chart-one {
   width: 200px;
@@ -187,7 +188,7 @@
   animation-delay: 1s;
 }
 .chart-four.animate figcaption:after {
-  animation: chart-four-label 3s steps(25) forwards;
+  animation: chart-four-label 3s steps(26) forwards;
   animation-delay: 1s;
 }
 .chart-four svg {
@@ -204,8 +205,8 @@
 }
 .chart-four svg .circle-foreground {
   stroke: #79be9b;
-  stroke-dasharray: 156.215px 624.86px;
-  stroke-dashoffset: 156.215px;
+  stroke-dasharray: 162.4636px 624.86px;
+  stroke-dashoffset: 162.4636px;
   stroke-linecap: round;
   transform-origin: 50% 50%;
   transform: rotate(-90deg);
@@ -232,7 +233,7 @@
 
 @keyframes chart-four-label {
   100% {
-    transform: translateY(-62.5rem);
+    transform: translateY(-65rem);
   }
 }
 @keyframes offset {
