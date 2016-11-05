@@ -43,7 +43,7 @@
   color: #c6e8d7;
   position: absolute;
   top: calc(50% - 1.25rem);
-  left: 0;
+  left: -20;
   font-size: 0;
 }
 .chart-one figcaption:after {
