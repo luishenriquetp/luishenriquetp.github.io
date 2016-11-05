@@ -62,30 +62,6 @@
 	@media screen and (max-width: 480px) {
 
 		html, body {
-			min-width: 480px;
-		}
-
-	}
-
-	body.is-loading *, body.is-loading *:before, body.is-loading *:after {
-		-moz-animation: none !important;
-		-webkit-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-		-moz-transition: none !important;
-		-webkit-transition: none !important;
-		-ms-transition: none !important;
-		transition: none !important;
-	}
-
-	html {
-		height: 100%;
-
-	}
-
-	@media screen and (max-width: 320px) {
-
-		html, body {
 			min-width: 320px;
 		}
 
@@ -115,7 +91,7 @@
 		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
 		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
 				background-repeat: repeat,			no-repeat,			no-repeat;
-		background-size: 100px 100px, cover,				cover;
+		background-size: 50px 50px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
 		background-attachment: fixed,			fixed,				fixed;
 	}
