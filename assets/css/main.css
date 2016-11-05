@@ -816,10 +816,10 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		-moz-justify-content: inherit;
-		-webkit-justify-content: inherit;
-		-ms-justify-content: inherit;
-		justify-content: inherit;
+		-moz-justify-content: space-between;
+		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
+		justify-content: space-between;
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
@@ -835,13 +835,13 @@
 	}
 
 		#wrapper > * {
-			z-index: 1;
+			z-index: -1;
 		}
 
-		/*#wrapper:before {
+		#wrapper:before {
 			content: '';
 			display: block;
-		}*/
+		}
 
 		@media screen and (max-width: 360px) {
 
